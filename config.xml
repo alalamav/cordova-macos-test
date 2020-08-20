@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.macos.test" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>cordova-macos-test</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="osx">
+        <preference name="deployment-target" value="10.11" />
+        <preference name="AllowWebViewNavigation" value="false" />
+    </platform>
+</widget>
