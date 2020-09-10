@@ -56,7 +56,7 @@ Starting: cordova-osx-test/platforms/osx/build/cordova-macos-test.app/Contents/M
     -   <param name="ios-package" value="CDVDevice" />
     - </feature>
     ```
-  -
+  - `platforms/osx/osx.json` is missing plugin declarations:
     ```diff
     "config_munge": {
     +    "files": {}
